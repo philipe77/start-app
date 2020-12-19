@@ -15,11 +15,14 @@
     ),
     url("https://picsum.photos/600/900?random=2");
   background-position: center center;
-
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
   display: block;
+
+  .carousel-label {
+    height: 90vh;
+  }
 }
 
 .galrjd {
