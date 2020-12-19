@@ -1,0 +1,24 @@
+.form-login {
+  padding: 50px 100px;
+
+  .forgot-span {
+    font-size: 0.8rem;
+    margin-top: -10px;
+    color: var(--text-color-primary-oppacity);
+    cursor: pointer;
+  }
+
+  .btn-sign {
+    border-radius: 20px;
+    width: 25%;
+  }
+
+  .btn-sign-google {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 35%;
+  }
+}

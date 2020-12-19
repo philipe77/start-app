@@ -4,7 +4,7 @@ import { FaHome } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useHistory } from "react-router-dom";
 
-export default function Footer() {
+export default function Footer({ ...props }) {
   const history = useHistory();
 
   function registerClick() {
@@ -26,7 +26,7 @@ export default function Footer() {
               color="rgba(0, 0, 0, 0.3)"
               onClick={loginClick}
             />
-            <span>1 of 2</span>
+            <span>{props.page} of 2</span>
             <IoIosArrowForward
               size={18}
               color="rgba(0, 0, 0, 0.3)"

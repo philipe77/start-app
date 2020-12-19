@@ -41,8 +41,8 @@ export default class CarouselComponent extends Component {
         transitionMs={700}
       >
         {items.map((item) => (
-          <div className="carousel-item" key={item.id}>
-            {/* <p>{item.title}</p> */}
+          <div className="center carousel-item" key={item.id}>
+            <p>{item.title}</p>
           </div>
         ))}
       </Carousel>
