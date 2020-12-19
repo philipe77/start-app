@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import Footer from "../../components/footer/footer";
 
 export default function Login() {
   return (
@@ -15,8 +16,7 @@ export default function Login() {
         </Col>
       </Row>
       <Row>
-        {/*  <Footer /> */}
-        <p>Footer</p>
+        <Footer />
       </Row>
     </Container>
   );

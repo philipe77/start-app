@@ -1,0 +1,23 @@
+footer {
+  background-color: var(--footer-bg);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-size {
+  height: 10vh;
+  p {
+    margin: 5px;
+  }
+}
+
+.paginable-items {
+  margin: 15px;
+  span {
+    margin: 5px;
+    font-size: 0.8rem;
+    color: var(--text-color-oppacity);
+  }
+}
