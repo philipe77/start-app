@@ -4,17 +4,19 @@ export default function Login() {
   return (
     <Container fluid>
       <Row>
-        <p>header</p>
-      </Row>
-
-      <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
+        <div className="header no-padding"></div>
       </Row>
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+        <Col lg={5} className="no-padding">
+          carousel
+        </Col>
+        <Col lg={5} className="no-padding">
+          form login
+        </Col>
+      </Row>
+      <Row>
+        {/*  <Footer /> */}
+        <p>Footer</p>
       </Row>
     </Container>
   );
