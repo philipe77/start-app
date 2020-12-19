@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import CarouselComponent from "../../components/carousel/carousel";
 import Footer from "../../components/footer/footer";
 
 export default function Login() {
@@ -9,7 +10,7 @@ export default function Login() {
       </Row>
       <Row>
         <Col lg={5} className="no-padding">
-          carousel
+          <CarouselComponent />
         </Col>
         <Col lg={5} className="no-padding">
           form login
