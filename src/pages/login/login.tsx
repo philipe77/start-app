@@ -36,12 +36,11 @@ export default function Login() {
                   <span className="forgot-span"> Forgot password</span>
                 </Col>
                 <Col md={12} className="text-center mt-4">
-                  <Button variant="secondary" size="lg" className="btn-sign  ">
+                  <Button variant="secondary" size="lg" className="btn-sign">
                     Sign in
                   </Button>
                 </Col>
               </Col>
-
               <Col md={12} className="text-right mt-3">
                 <hr />
               </Col>
